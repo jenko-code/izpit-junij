@@ -1,5 +1,5 @@
 :root {
-    --backgroung-color: #1F1F1F;
+    --background-color: #1F1F1F;
     --background-secondary: #333333;
     --primary-color: #E65F78;
     --secondary-color: #F7F7F7;
@@ -14,7 +14,7 @@
 }
 body {
     font-family: var(--primary-font), sans-serif;
-    background-color: var(--backgroung-color);
+    background-color: var(--background-color);
 }
 
 .container {
@@ -50,9 +50,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 150px 255px;
     gap: 100px;
+    min-height: 924px;
 }
 
 .main__banner {
@@ -86,4 +87,57 @@ body {
     font-size: 1.5em;
     font-weight: 100;
     color: var(--secondary-color);
+}
+/* e:main  */
+
+/* contact  */
+.main__contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 675px;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px;
+    gap: 90px;
+    background: #333333;
+}
+.main__contact--title {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--adjecent-color);
+}
+.main__contact--text {
+    width: 544px;
+    font-size: 1.25em;
+    text-align: center;
+    color: var(--adjecent-color);
+}
+
+.btn-primary {
+    padding: 8px 14px;
+    background: var(--primary-color);
+    color: var(--adjecent-color);
+    border-radius: 3px;
+    border: none;
+    font-size: 1em;
+}
+.main__contact--social-icons {
+    display: flex;
+    gap: 20px;
+}
+/* e:contact  */
+
+/* footer */
+.footer {
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: var(--adjecent-color);
+    font-size: 1em;
+    /* font-weight: 100; */
+}
+.main__footer--text span {
+    color: var(--primary-color);
 }
