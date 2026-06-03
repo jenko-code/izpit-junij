@@ -43,10 +43,13 @@ body {
     color: var(--secondary-color);
     font-size: 1em;
 }
+.header__nav-list-item {
+    padding: 10px;
+}
 /* e: header  */
 
 /* main  */
-.main {
+.main__banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +59,7 @@ body {
     min-height: 924px;
 }
 
-.main__banner {
+.main__banner--info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -67,10 +70,6 @@ body {
 .main__banner--circle {
     height: 150px;
     width: 150px;
-}
-
-.main__banner--info {
-    /* to do */
 }
 
 .main__banner--title {
@@ -87,6 +86,7 @@ body {
     font-size: 1.5em;
     font-weight: 100;
     color: var(--secondary-color);
+    font-weight: 100; /* itak nima pomena, ce ni razlike, če dam to al pa ce ne dam je isto */
 }
 /* e:main  */
 
