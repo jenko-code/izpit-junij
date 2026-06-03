@@ -1,5 +1,6 @@
 :root {
     --backgroung-color: #1F1F1F;
+    --background-secondary: #333333;
     --primary-color: #E65F78;
     --secondary-color: #F7F7F7;
     --adjecent-color: #FFFFFF;
@@ -14,4 +15,75 @@
 body {
     font-family: var(--primary-font), sans-serif;
     background-color: var(--backgroung-color);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header  */
+.header {
+    min-height: 100px;
+    padding: 25px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    height: 50px;
+    width: 50px;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: var(--secondary-color);
+    font-size: 1em;
+}
+/* e: header  */
+
+/* main  */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 255px;
+    gap: 100px;
+}
+
+.main__banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.main__banner--circle {
+    height: 150px;
+    width: 150px;
+}
+
+.main__banner--info {
+    /* to do */
+}
+
+.main__banner--title {
+    font-size: 4.5em;
+    font-weight: 900;
+    color: var(--adjecent-color);
+}
+
+.main__banner--title span {
+    color: var(--primary-color);
+}
+
+.main__banner--text {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: var(--secondary-color);
 }
