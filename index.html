@@ -3,10 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
-<body>
-    
-</body>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header__logo">
+                    <img src="assets/logo.svg" alt="logo">
+                </div> <!-- e: header__logo -->
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-list-item">about</li>
+                        <li class="header__nav-list-item">experience</li>
+                        <li class="header__nav-list-item">skill</li>
+                        <li class="header__nav-list-item">portfolio</li>
+                        <li class="header__nav-list-item">contact</li>
+                    </ul>
+                </nav> <!-- e: header__nav -->
+            </header> <!-- e: header -->
+            <main class="main">
+                <div class="main__banner">
+                    <div class="main__banner--content"></div>
+                        <div class="main__banner--circle"></div>
+                        <div class="main__banner--info">
+                            <h1 class="main__banner--title">John <span>Smith</span></h1>
+                            <p class="main__banner--text">I design and build things on the internet.</p>
+                        </div>
+                    </div>
+                    <img src="assets/hero-arrow.svg" alt="arrow">
+                </div> <!-- e: main__banner -->
+                <div class="main__contact">
+                    <h2 class="main__contact--title">Contact</h2>
+                    <p class="main__contact--text">I am currently seeking employment, so if you have a job or project offer, or if you need more information, please do not hesitate to contact me.</p>
+                    <button class="btn btn-primary">Write message</button>
+                    <div class="main__contact--social-icons">
+                        <img src="assets/github-icon.png" alt="social image">
+                        <img src="assets/linkedin-icon.png" alt="social image">
+                        <img src="assets/instagram-icon.png" alt="social image">
+                        <img src="assets/twitter-icon.png" alt="social image">
+                    </div>
+                </div> <!-- e: main__contact -->
+                </div>
+            </main> <!-- e: main -->
+            <footer class="footer">
+                <p class="main__footer--text">John <span>Smith</span> - 2023</p>
+            </footer> <!-- e:footer -->
+        </div> <!-- e: container -->
+    </body>
 </html>

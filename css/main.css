@@ -1,0 +1,17 @@
+:root {
+    --backgroung-color: #1F1F1F;
+    --primary-color: #E65F78;
+    --secondary-color: #F7F7F7;
+    --adjecent-color: #FFFFFF;
+    --primary-font: "Open Sans";
+}
+/* reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primary-font), sans-serif;
+    background-color: var(--backgroung-color);
+}
